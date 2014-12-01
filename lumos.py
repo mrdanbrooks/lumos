@@ -4,6 +4,8 @@
 TODO:
     - commandline args to br command and allowed expressions, and listening port
 """
+import sys
+sys.DONT_WRITE_BYTECODE = True
 import re
 import subprocess
 import syslog
